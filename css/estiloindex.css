@@ -4,11 +4,13 @@
   margin: 0;
   font-family: "Arial";
   box-sizing: border-box;
+  transition: all 0.3s ease;
 }
 
 body,html
 {
   height: 100%;
+  background-color:rgb(77, 80, 97);
 }
 
 #titulo
@@ -58,8 +60,8 @@ body,html
 {
   background-color:#e65b35;
   position: absolute;
-  margin-right:15%;
-  margin-left: 15%; 
+  margin-right:13%;
+  margin-left: 13%; 
 }
 .quimica
 {
@@ -79,7 +81,7 @@ body,html
 }
 .matematicas img,.fisica img,.quimica img
 {
-  margin-top: 15%;
+  margin-top: 16.5%;
   width:65%;
   height:65%;
   vertical-align: middle;
@@ -97,4 +99,10 @@ footer a
 {
   color: silver;
   text-decoration: none;
+}
+
+.matematicas:hover,.fisica:hover,.quimica:hover
+{
+  height: 270px;
+  width: 270px;
 }
