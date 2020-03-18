@@ -1,0 +1,59 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  transition: all 0.3s ease;
+}
+html,body
+{
+	background-color: rgb(77, 80, 97);
+}
+
+
+header 
+{
+  background-color:rgba(48, 50, 61,1);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  overflow: hidden;
+  top:0;
+
+}
+
+#title
+{
+	text-align: center;
+	width: 100%;
+	background-color:rgba(48, 50, 61,1);
+	color: white;
+	padding-bottom: 3px;
+	margin-top: 2%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  width: 24.87%;
+  padding-top:5px;
+  padding-bottom:5px;
+  text-decoration: none;
+  font-size: 17px;
+  border-left: solid white 1px;
+  border-right: solid white 1px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgba(169, 48, 67);
+  color: white;
+}
+
