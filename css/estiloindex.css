@@ -12,12 +12,12 @@ html,body
 
 header 
 {
+  margin:0 auto;
   background-color:rgba(48, 50, 61,1);
-  width: 100%;
-  position: fixed;
+  width: 99.5%;
+  position: fixed top;
   z-index: 100;
   overflow: hidden;
-  top:0;
 
 }
 
@@ -56,4 +56,5 @@ header
   background-color: rgba(232, 197, 71,1);
   color: white;
 }
+
 
