@@ -17,12 +17,17 @@ body,html
 {
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: #3F292B;
-  text-align: center;
-  color: white;
-  position: fixed;
-  z-index: 100;
+  background: url(../img/madera4.jpg) no-repeat center center brown;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   width: 100%;
+  text-align: center;
+  color: black;
+  z-index: 100;
+  font-size: 30px;
+  filter:drop-shadow(6px 6px 2px rgba(0,0,0,0.4)) ;
 }
 /*
 .fondo
